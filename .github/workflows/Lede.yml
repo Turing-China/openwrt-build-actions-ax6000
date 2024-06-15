@@ -23,10 +23,10 @@ on:
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
-        default: 'x86_64'
+        default: 'xiaomi_redmi-router-ax6000'
         type: choice
         options:
-          - 'x86_64'
+          - 'xiaomi_redmi-router-ax6000'
       CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
